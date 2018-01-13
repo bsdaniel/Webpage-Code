@@ -1,0 +1,329 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: "avenir", Sans-serif;
+	background-color: white;
+}
+
+header{
+	color: white;
+	font-weight: bold;
+	font-style:italic;
+	text-align: left;
+	position: absolute;
+	transform: translateX(-50%) translateY(-50%);
+	left: 50%;
+	top: 50%;
+}
+.sub-menu {
+    display: none;
+}
+ 
+.sub-menu li {
+    display:block;
+    font-size:16px;
+}
+ 
+.sub-menu li a {
+    padding:10px 30px;
+    display:block;
+}
+ 
+.sub-menu li a:hover, .sub-menu .current-item a {
+ background:#3e3436;
+}
+.AwardsandArticles{
+	overflow:hidden;
+	height: 500px;
+	width: 575px;
+	margin: 0 auto 0 auto;
+	top: 2500%;
+	left:2%;
+	position: relative;
+}
+
+.AwardsandArticles img{
+	height: 496px;
+	width: 500px;
+}
+
+.AwardNav {
+	line-height: auto;
+	margin:;
+	text-align:center;
+	position:relative;
+}
+.bar{
+	padding:1em;
+	margin-left:5%;
+	float: right;
+	width: 55%;
+}
+.bar img{
+	width: 75%;
+}
+
+.bar p{
+	padding: 1em;
+}
+
+.sidebar{
+	padding: 1em;
+	margin-right:5%;
+	float: right;
+	width: 50%;
+}
+.sidebar img{
+	float: right;
+	width: 58%;
+}
+
+.slider{
+	max-width: 1000px;
+	margin: 0 auto 0 auto;
+	position: relative;
+}
+.myslider{
+	display: none;
+}
+
+#main-slider{
+	margin: 50px auto; 
+    position: relative; 
+    width: 240px; 
+    height: 240px; 
+    padding: 10px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
+
+#main-slider > div {
+	position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
+.paragraph{
+	text-overflow:break-word;
+}
+
+.slider img{
+	height: 496px;
+	width: 500px;
+}
+
+.headerpic img{
+	filter: blur(10px);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	z-index: -1;
+}
+.Picture img{
+	height: 25%;
+	width: 25%;
+	margin: auto;
+	float: right;
+	bottom: 0;
+}
+.NavigationBar img{
+	height: 20%;
+	margin-right: 5px;
+	margin-top: -3px;
+}
+
+.Sourcing ul{
+	background-color: #FFFFFF;
+	font-size: 30px;
+}
+.Sourcing p{
+	text-align: left;
+	padding: 1em;
+}
+.NavigationBar{
+	width: 100%;
+	background: #000000;
+}
+.NavigationBar ul{
+	float: right;
+}
+.NavigationBar img{
+	width: 10%;
+}
+.Listng img{
+	height: 400px;
+	float: right;
+}
+.listing p{
+	text-align: left;
+	padding: 1em;
+}
+
+.content p{
+	text-align: left;
+	padding: 1em;
+}
+.contentimg img{
+	float: right;
+	padding: 2em;
+}
+.SocialMedia img{
+	margin-left: 0 auto;
+	margin-right: 0 auto;
+}
+.Text p{
+	text-align: left;
+}
+
+h1{
+color: black;
+text-shadow: 2px 2px #FFFFFF;
+text-align: center;
+font-weight: normal;
+font-size: 90px;
+position: relative;
+}
+
+h2{
+font-size: 30px;
+}
+
+p{
+text-shadow: 2px 2px #FFFFFF;
+text-align: center;
+text-indent: 0px;
+font-size: 30px;
+color: black;
+}
+
+nav{
+position:fixed;
+top: 0;
+width: 100%;
+background-color: #FFFFFF;
+height: 10px;
+z-index:;
+}
+
+nav ul li{
+list-style-type: none;
+padding: 1em;
+margin: 0;
+width: 150px;
+}
+
+nav ul{
+height: 50px;
+}
+
+ul {
+list-style-type: none;
+margin: 0px;
+padding: auto;
+overflow:;
+background-color:#000000;
+}
+
+
+li {
+display:;
+float: left;
+opacity: 0.5px;
+}
+
+li a{
+display: block;
+color: lime;
+text-align: center;
+white-space: nowrap;
+text-decoration: none;
+line-height: 50px;
+font-size: 20px;
+}
+
+li a:hover {
+background-color: #003366;	
+}
+
+footer{
+text-align: left;
+background-color: black;
+width: 100%;
+padding: 10px;
+display: block;
+position: fixed;
+left:0px;
+bottom: 0px;
+height: 30px;
+clear: both;
+color: lime;
+font-size: 20px;
+}
+
+
+.img-right {
+float: right;
+width: 500px;
+height: auto;
+margin: 12px 0 12px 12px;
+opacity: 0.5px;
+}
+
+.img-left {
+    float: left;
+    width: 500px;
+    height: auto;
+    margin: 12px 12px 12px 0;
+    opacity: 0.5px;
+}
+
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+input[type=text] {
+	font-size: 20px;
+}
+label[for='fname'] {
+	font-size: 20px;
+	color: lime;
+}
+label[for="emailaddress"] {
+	font-size: 20px;
+	color: lime;
+}
+label[for="subject"] {
+	font-size: 20px;
+	color: lime;
+}
+label[for="lname"]{
+	font-size: 20px;
+	color: lime;
+}
+input[type=submit] {
+    background-color: #003366;
+    color: lime;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+textarea[id="Let us know your thought..."] {
+	font-size: 20px;
+}
+
+input[type=submit]:hover {
+    background-color: #000000;
+}
+.container {
+    border-radius: 5px;
+    background-color: #000000;
+    padding: 20px;
+}
